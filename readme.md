@@ -10,6 +10,9 @@ A funky landing page made using pure HTML and CSS
 ## Time Taken for Completion
 - 3 hours
 
+### Checkout the Project here : [streetstyle](https://streetstyle.netlify.app/)
+
+
 ## Output
 ![output](output.png)
 
