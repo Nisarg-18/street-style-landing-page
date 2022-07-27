@@ -1,0 +1,225 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+.container {
+  padding-top: 50px;
+  padding-right: 100px;
+  padding-left: 100px;
+  text-align: center;
+  height: 100%;
+}
+
+.navbar-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-img img {
+  height: 40px;
+  width: 120px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.list-item {
+  list-style-type: none;
+  padding: 0px 30px;
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 21px;
+}
+
+.list-item:hover {
+  cursor: pointer;
+}
+
+.home-list-item {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-list-item:after {
+  content: "";
+  position: absolute;
+  display: block;
+  background-color: #000000;
+  width: 35%;
+  height: 2px;
+  bottom: -3px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.search-icon {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+.nav-button {
+  background-color: #ffffff;
+  font-family: "Poppins", sans-serif;
+  padding: 2px 28px;
+  border-radius: 10px;
+  border: 2px solid black;
+  font-size: 17px;
+}
+
+.first-col {
+  position: relative;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 55px 0px;
+}
+
+.hero-img {
+  z-index: 0;
+}
+
+.hero-img img {
+  height: 420px;
+  width: 340px;
+}
+
+.square {
+  z-index: -1;
+  position: absolute;
+  top: 210px;
+  left: 140px;
+}
+
+.square img {
+  display: inline-block;
+  height: 250px;
+  width: 250px;
+}
+
+.second-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 650px;
+}
+
+.hero-container-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.star img,
+.globe img {
+  height: 50px;
+  width: 50px;
+}
+
+.globe {
+  position: relative;
+  right: 180px;
+  top: 22px;
+}
+
+.star {
+  position: relative;
+  left: 280px;
+}
+
+.smallstar img {
+  height: 35px;
+  width: 35px;
+}
+
+.hero-heading {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  padding: 20px 0px;
+}
+
+.hero-description {
+  color: rgb(137, 137, 137);
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  padding-bottom: 40px;
+  width: 580px;
+}
+
+.button-email {
+  background-color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  padding: 1px 15px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: rgb(137, 137, 137);
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.button-join {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 1px 1px;
+  border-radius: 5px;
+  border: 3px solid black;
+  font-family: "Orbitron", sans-serif;
+  cursor: pointer;
+}
+
+.email-join-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 250px;
+  padding-bottom: 40px;
+}
+
+.smallstar {
+  position: relative;
+  right: 300px;
+  top: 50px;
+}
+
+.contact-heading {
+  font-family: "Poppins", sans-serif;
+  color: rgb(137, 137, 137);
+  font-weight: 500;
+  padding-bottom: 10px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 170px;
+}
+
+.icons span img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
